@@ -100,6 +100,11 @@ module Dota
         end
       end
 
+      def profiles(user_id)
+        response = get("ISteamUser", "GetPlayerSummaries", {steamids: user_id, api_version: 'v0002'})["response"]["players"][0]
+        Profile.new(response) if response
+      end
+
       def get(interface, method, params = {})
         do_request(method, params, interface)
       end
