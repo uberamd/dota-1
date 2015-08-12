@@ -101,6 +101,11 @@ module Dota
       end
 
       def profiles(user_id)
+        # convert the user_id into the long version Steam uses
+        unless user_id.count == 17
+          user_id += 76561197960265728
+        end
+
         response = get("ISteamUser", "GetPlayerSummaries", {steamids: user_id, api_version: 'v0002'})["response"]["players"][0]
         Profile.new(response) if response
       end

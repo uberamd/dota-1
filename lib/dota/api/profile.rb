@@ -5,6 +5,10 @@ module Dota
         raw["steamid"].to_i
       end
 
+      def short_id
+        raw["steamid"].to_i - 76561197960265728
+      end
+
       def communityvisibilitystate
         raw["communityvisibilitystate"]
       end
