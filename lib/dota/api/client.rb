@@ -102,7 +102,7 @@ module Dota
 
       def profiles(user_id)
         # convert the user_id into the long version Steam uses
-        unless user_id.count == 17
+        unless user_id > 10000000000000000
           user_id += 76561197960265728
         end
 
