@@ -555,13 +555,13 @@
   - Blink Strike
   - Riki Blink Strike
 5144:
-  - riki_backstab
-  - Backstab
-  - Riki Backstab
+  - riki_cloak_and_dagger
+  - Cloak and Dagger
+  - Riki Cloak and Dagger
 5145:
-  - riki_permanent_invisibility
-  - Permanent Invisibility
-  - Riki Permanent Invisibility
+  - riki_tricks_of_the_trade
+  - Tricks of the Trade
+  - Riki Tricks of the Trade
 5146:
   - enigma_malefice
   - Malefice
@@ -1319,9 +1319,9 @@
   - Scorched Earth
   - Doom Bringer Scorched Earth
 5341:
-  - doom_bringer_lvl_death
-  - Lvl Death
-  - Doom Bringer Lvl Death
+  - doom_bringer_infernal_blade
+  - Infernal Blade
+  - Doom Bringer Infernal Blade
 5342:
   - doom_bringer_doom
   - Doom
@@ -1463,9 +1463,9 @@
   - Cold Snap
   - Invoker Cold Snap
 5377:
-  - silencer_curse_of_the_silent
-  - Curse Of The Silent
-  - Silencer Curse Of The Silent
+  - silencer_arcane_curse
+  - Arcane Curse
+  - Silencer Arcane Curse
 5378:
   - silencer_glaives_of_wisdom
   - Glaives Of Wisdom
@@ -1607,9 +1607,9 @@
   - Rabid
   - Lone Druid Rabid
 5414:
-  - lone_druid_synergy
-  - Synergy
-  - Lone Druid Synergy
+  - lone_druid_savage_roar
+  - Savage Rorar
+  - Lone Druid Savage Roar
 5415:
   - lone_druid_true_form
   - True Form
@@ -2278,3 +2278,27 @@
   - life_stealer_assimilate_eject
   - Eject
   - Life Stealer Eject
+5677:
+  - arc_warden_flux
+  - Flux
+  - Arc Warden Flux
+5678:
+  - arc_warden_magnetic_field
+  - Magnetic Field
+  - Arc Warden Magnetic Field
+5679:
+  - arc_warden_spark_wraith
+  - Spark Wraith
+  - Arc Warden Spark Wraith
+5683:
+  - arc_warden_tempest_double
+  - Tempest Double
+  - Arc Warden Tempest Double
+5685:
+  - death_prophet_spirit_siphon
+  - Siphon
+  - Death Prophet Spirit Siphon
+5691:
+  - faceless_void_time_dilation
+  - Time Dilation
+  - Faceless Void Time Dilation
